@@ -13,7 +13,7 @@ const fdsImagesPath = './node_modules/fds-style/src/img/';
 
 const config = {
   server: { port: 3000 },
-  base: '/fpac-design-system/',
+  base: '/ux-journey/',
   plugins: [
     copy({
       targets: [

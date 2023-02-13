@@ -2,7 +2,7 @@
   <div class="fds-screen-id">
     <div class="fds-screen-id__bd">
       <dl class="fds-screen-id__dl">
-        <dt class="fds-screen-id__dt">Screen ID</dt>
+        <dt class="fds-screen-id__dt">Copyright (c) 2023</dt>
         <dd class="fds-screen-id__dd">{{ SCREEN_ID }}</dd>
       </dl>
     </div>

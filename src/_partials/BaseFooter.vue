@@ -1,12 +1,9 @@
 <template>
   <footer>
     <footerTopper></footerTopper>
-    <footerFooter 
-      APP_ABBR_NAME="FDS">
-    </footerFooter>
-    <footerScreenId
-      SCREEN_ID="FDS-2023">
-    </footerScreenId>
+    <!-- <footerScreenId
+      SCREEN_ID="UX Journey">
+    </footerScreenId> -->
     
     <hiddenItems></hiddenItems>
 
