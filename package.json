@@ -1,14 +1,13 @@
 {
-  "name": "fpac-design-system",
-  "version": "3.0.0",
-  "author": "USDA FPAC - Farm Production and Conservation, ISSDOB/FBCSS",
+  "name": "ux-journey",
+  "version": "1.0.0",
+  "author": "Casey Hill",
   "contributors": [
-    "Casey Hill <bignamehere@gmail.com> (https://github.com/bignamehere)",
-    "Jamie Thompson <jamieraethompson@gmail.com> (https://github.com/whatnextjamie)"
+    "Casey Hill <uxinkc@gmail.com> (https://github.com/uxinkc)"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usda-fpac/fpac-design-system.git"
+    "url": "git+https://github.com/uxinkc/ux-jounrey.git"
   },
   "scripts": {
     "dev": "vite",
