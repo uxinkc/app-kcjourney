@@ -1,3 +1,3 @@
-# FPAC Design System
+# UX Journey
 
-Documentation website for the FPAC Design System.
+Prototype for a Stanford LEAD Project

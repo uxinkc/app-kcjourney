@@ -1,5 +1,5 @@
 
-const URL = '/api/fpac-design-system-navigation.json';
+const URL = '/api/ux-journey-nav.json';
 const HEADERS = new Headers();
 HEADERS.append(
   "Authorization",

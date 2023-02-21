@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import { homeRoutes } from '@/Home/_routes/home.routes.js';
-import { utilitiesRoutes } from '@/Utilities/_routes/utilities.routes.js';
+import { learningRoutes } from '@/Learning/_routes/learning.routes.js';
+import { curriculumRoutes } from '@/Curriculum/_routes/curriculum.routes.js';
 import { searchRoutes } from '@/Search/_routes/search.routes.js';
 
 
@@ -10,8 +10,8 @@ const routes = [
     path: '/',
     component: () => import('@/_layouts/Main.vue'),
     children: [
-      ...homeRoutes,
-      ...utilitiesRoutes,
+      ...learningRoutes,
+      ...curriculumRoutes,
       ...searchRoutes,
       { 
         path: '/:pathMatch(.*)*',

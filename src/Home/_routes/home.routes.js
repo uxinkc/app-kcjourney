@@ -1,11 +1,11 @@
 
 export const homeRoutes = [
   { 
-    path: '/',
+    path: '/mmmm',
     component: () => import('@/Home/_views/Home.vue')
   },
   { 
-    path: '/home',
+    path: '/homemmmmmmm',
     component: () => import('@/Home/_views/Home.vue')
   }
 ]
