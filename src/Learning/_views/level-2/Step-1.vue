@@ -20,19 +20,19 @@
 
           <div class="fds-level fds-level--none@s fds-level--full@m fds-level--grow-even fds-level--align-top fds-level--gutter-l">
             
-            <article class="ds-article">
+            <article class="ds-article fds-m-r--m">
               
               <p class="fds-text-size--5">Overview:</p>
               <p class="fds-m-t--m">
-                A newer principle that has surfaced since the advent of the internet is Jakob's Law. It states <strong><em>"Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know."</em></strong>
+                A newer principle that has surfaced since the advent of the internet is Jakob's Law. It states <strong><em>"Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know."</em></strong> 
               </p>
                 
               <p class="fds-m-t--m">
-                This principle is based on the idea that humans are confortable with what we are familiar with, which establishes a trusted relationship. The more trust a User has with a system, the more efficient the experience can become. Trust also enables Users to perceive web sites and applications as easier to use, and can more quickly complete tasks and work thru processes.
+                This principle is based on the idea that humans are confortable with what they are familiar with, which establishes a trusted relationship. The more trust a User has with a system, the more efficient the experience can become. Trust also enables Users to perceive web sites and applications as easier to use, and can more quickly complete tasks and work thru processes.
               </p>
 
               <p class="fds-m-t--m">
-                What makes Apple, Google, and other premium technology brands so successful is their ability to maintain functionality and features that behave the same or similar across all of their product offerings. Jakob's Law is based on this repetition and establishment of trust.
+                What makes Apple, Google, and other premium technology brands so successful is their ability to maintain functionality and features that behave the same or similar across all of their product offerings. Jakob's Law is based on this repetition and establishment of trust and familiarity.
               </p>
               
             </article>

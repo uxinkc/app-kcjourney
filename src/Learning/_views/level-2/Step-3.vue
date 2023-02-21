@@ -20,7 +20,7 @@
 
           <div class="fds-level fds-level--none@s fds-level--full@m fds-level--grow-even fds-level--align-top fds-level--gutter-l">
             
-            <article class="ds-article">
+            <article class="ds-article fds-m-r--m">
               
               <p class="fds-text-size--5">Takeaways:</p>
               <p class="fds-m-t--m fds-text-size--4">
@@ -56,7 +56,7 @@
 
                 <div class="fds-stepped-control__shim"></div>
                 <div class="fds-stepped-control__item fds-stepped-control__item--push">
-                  <button @click="goto('/learning/level-2/test')" class="fds-btn fds-btn--primary fds-btn--large fds-stepped-control__btn" type="submit">
+                  <button @click="goto('/learning/level-2/test-1')" class="fds-btn fds-btn--primary fds-btn--large fds-stepped-control__btn" type="submit">
                     <span class="fds-stepped-control__btn-label">Take the Test!</span>
                   </button>
                 </div>

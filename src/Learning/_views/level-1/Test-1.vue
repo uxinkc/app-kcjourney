@@ -25,7 +25,7 @@
                 <li>
                   <span>
                     <input class="fds-checkbox" id="m-1" type="checkbox" name="millers">
-                    <label for="m-1">Stock Number: (5) 012344321-1</label>
+                    <label for="m-1">Stock Number: (5) 01234432100-1</label>
                   </span>
                 </li>
                 <li>
@@ -37,7 +37,7 @@
                 <li>
                   <span>
                     <input class="fds-checkbox" id="m-3" type="checkbox" name="millers">
-                    <label for="m-3">+1 212.554.2987</label>
+                    <label for="m-3">+1 (212) 554-2987</label>
                   </span>
                 </li>
                 <li>
@@ -52,7 +52,7 @@
 
             <div class="fds-field fds-m-t--xl">
               <p>
-                <button @click="submit" class="fds-btn fds-btn--primary">Submit</button>
+                <button @click="submit" class="fds-btn fds-btn--primary">Continue</button>
               </p>
             </div>
 
@@ -100,19 +100,19 @@ export default {
     });
 
     const submit = () => {
-      let m1 = document.getElementById("m-1");
-      let m2 = document.getElementById("m-2");
-      let m3 = document.getElementById("m-3");
-      let m4 = document.getElementById("m-4");
+      let r1 = document.getElementById("m-1");
+      let r2 = document.getElementById("m-2");
+      let r3 = document.getElementById("m-3");
+      let r4 = document.getElementById("m-4");
 
-      if((m2.checked && m3.checked) && (!m1.checked && !m4.checked)){
-        goto('/learning/level-1/certificate');
+      if((r2.checked && r3.checked) && (!r1.checked && !r4.checked)){
+        goto('/learning/level-1/test-2');
 
         showSuccessGrowl(
           {
             "title": "Correct",
             "useIcon": 'true',
-            "msg": "Great, you are now certified as Level 1."
+            "msg": "Keep on going."
           }
         );
 
@@ -130,15 +130,15 @@ export default {
     }
 
     const clearTest = () => {
-      let m1 = document.getElementById("m-1");
-      let m2 = document.getElementById("m-2");
-      let m3 = document.getElementById("m-3");
-      let m4 = document.getElementById("m-4");
+      let r1 = document.getElementById("m-1");
+      let r2 = document.getElementById("m-2");
+      let r3 = document.getElementById("m-3");
+      let r4 = document.getElementById("m-4");
 
-      m1.checked = false;
-      m2.checked = false;
-      m3.checked = false;
-      m4.checked = false;
+      r1.checked = false;
+      r2.checked = false;
+      r3.checked = false;
+      r4.checked = false;
     }
 
     return {

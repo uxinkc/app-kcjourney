@@ -20,16 +20,16 @@
 
           <div class="fds-level fds-level--none@s fds-level--full@m fds-level--grow-even fds-level--align-top fds-level--gutter-l">
             
-            <article class="ds-article">
+            <article class="ds-article fds-m-r--m">
               
               <p class="fds-text-size--5">Background:</p>
               <p class="fds-m-t--m">Jakob’s Law was coined by Jakob Nielsen, a User Advocate and principal of the Nielsen Norman Group which he co-founded with Dr. Donald A. Norman (former VP of research at Apple Computer). Dr. Nielsen established the ‘discount usability engineering’ movement for fast and cheap improvements of user interfaces and has invented several usability methods, including heuristic evaluation.</p>
+              <p class="fds-m-t--m">Watch the brief video from NN/g for more information.</p>
               
             </article>
 
-            <span class="fds-box fds-bg--aqua fds-hide@s-only">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 567 563"><g fill="none" fill-rule="evenodd" stroke="#f4f1d0" stroke-width="30"><path style="--animation-order: 1" d="M15 98h454v450H15z"></path><path style="--animation-order: 2" d="M98 15h454v450H98z"></path></g>
-              </svg>
+            <span class="fds-box">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/wzb4mK9DiHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </span>
 
           </div>

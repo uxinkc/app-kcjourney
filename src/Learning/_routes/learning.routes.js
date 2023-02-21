@@ -25,8 +25,12 @@ export const learningRoutes = [
     component: () => import('@/Learning/_views/level-1/Step-3.vue')
   },
   { 
-    path: '/learning/level-1/test',
-    component: () => import('@/Learning/_views/level-1/Test.vue')
+    path: '/learning/level-1/test-1',
+    component: () => import('@/Learning/_views/level-1/Test-1.vue')
+  },
+  { 
+    path: '/learning/level-1/test-2',
+    component: () => import('@/Learning/_views/level-1/Test-2.vue')
   },
   { 
     path: '/learning/level-1/certificate',
@@ -45,8 +49,12 @@ export const learningRoutes = [
     component: () => import('@/Learning/_views/level-2/Step-3.vue')
   },
   { 
-    path: '/learning/level-2/test',
-    component: () => import('@/Learning/_views/level-2/Test.vue')
+    path: '/learning/level-2/test-1',
+    component: () => import('@/Learning/_views/level-2/Test-1.vue')
+  },
+  { 
+    path: '/learning/level-2/test-2',
+    component: () => import('@/Learning/_views/level-2/Test-2.vue')
   },
   { 
     path: '/learning/level-2/certificate',

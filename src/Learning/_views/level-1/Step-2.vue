@@ -20,11 +20,14 @@
 
           <div class="fds-level fds-level--none@s fds-level--full@m fds-level--grow-even fds-level--align-top fds-level--gutter-l">
             
-            <article class="ds-article">
+            <article class="ds-article fds-m-r--m">
               
               <p class="fds-text-size--5">Background:</p>
               <p class="fds-m-t--m">In 1956, George Miller asserted that the span of immediate memory and absolute judgment were both limited to around 7 pieces of information. The main unit of information is the bit, the amount of data necessary to make a choice between two equally likely alternatives. Likewise, 4 bits of information is a decision between 16 binary alternatives (4 successive binary decisions).</p>
               <p class="fds-m-t--m">The point where confusion creates an incorrect judgment is the channel capacity. In other words, the quantity of bits which can be transmitted reliably through a channel, within a certain amount of time.</p>
+              <p class="fds-m-t--m">
+                Working memory storage capacity is important because cognitive tasks can be completed only with sufficient ability to hold information as it is processed. The ability to repeat information depends on task demands but can be distinguished from a more constant, underlying mechanism: a central memory store limited to 3 to 5 meaningful items in young adults.
+              </p>
               
             </article>
 

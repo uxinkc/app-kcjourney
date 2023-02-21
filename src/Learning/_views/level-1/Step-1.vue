@@ -20,10 +20,13 @@
 
           <div class="fds-level fds-level--none@s fds-level--full@m fds-level--grow-even fds-level--align-top fds-level--gutter-l">
             
-            <article class="ds-article">
+            <article class="ds-article fds-m-r--m">
               
               <p class="fds-text-size--5">Overview:</p>
-              <p class="fds-m-t--m">Miller's Law states <strong><em>"The average person can only keep 7 (plus or minus 2) items in their working memory."</em></strong> This concept is related to the idea of chunking, and how much information a person can hold in memory. An example of this is a normal US phone number with separaters. Without the parenthesis "()" and dashes "-", the following number is very hard to remember: <strong><pre><code>9135121972</code></pre></strong> But by using Miller's Law and separating the information into chunks, the following number is much easier to remember: <strong><pre><code>(913) 512-1972</code></pre></strong></p>
+              <p class="fds-m-t--m">Miller's Law states <strong><em>"The average person can only keep 7 (plus or minus 2) items in their working memory."</em></strong> This concept is related to the idea of "chunking", and how much information a person can hold in memory. An example of this is a normal US phone number with separaters. Without the parenthesis "()" and dashes "-", the following number is very hard to remember: <strong><pre><code>9135121972</code></pre></strong> But by using Miller's Law and separating the information into chunks, the following number is much easier to remember: <strong><pre><code>(913) 512-1972</code></pre></strong></p>
+              <p class="fds-m-t--m">
+                The principle can also apply across larger collections of information as well, such as a menu system. The UX industry often incorrectly applies Miller's Law to menu systems stating they should have a maximum of 7 items listed. Based on the concept of chunking, the total number of items could actually be more than 7 as long as they are appropriately grouped (chunked) in smaller quantities.
+              </p>
 
             </article>
 

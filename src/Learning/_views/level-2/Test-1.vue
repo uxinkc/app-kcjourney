@@ -18,36 +18,36 @@
         <div class="fds-section__bd">
 
           <article class="ds-article">
-            <p class="fds-text-size--4">Which of the below represent why Jakob's Law is effective?</p>
+            <p class="fds-text-size--4">Which of the below concepts represent why Jakob's Law is valueable to Users?</p>
 
             <div class="fds-field">
               <ul class="fds-form-list" aria-describedby="jakob-help" aria-labelledby="s">
                 <li>
                   <span>
                     <input class="fds-checkbox" id="j-1" type="checkbox" name="millers">
-                    <label for="j-1">Trust</label>
+                    <label for="j-1">Establishes trust for Users</label>
                   </span>
                 </li>
                 <li>
                   <span>
                     <input class="fds-checkbox" id="j-2" type="checkbox" name="millers">
-                    <label for="j-2">Obversable</label>
+                    <label for="j-2">Makes observable websites</label>
                   </span>
                 </li>
                 <li>
                   <span>
                     <input class="fds-checkbox" id="j-3" type="checkbox" name="millers">
-                    <label for="j-3">Familiarity</label>
+                    <label for="j-3">Familiarity helps Usability</label>
                   </span>
                 </li>
                 <li>
                   <span>
                     <input class="fds-checkbox" id="j-4" type="checkbox" name="millers">
-                    <label for="j-4">Accessibility</label>
+                    <label for="j-4">Accessibility is the law</label>
                   </span>
                 </li>
               </ul>
-              <span class="fds-field__help" id="jakob-help">Choose the best answer</span>
+              <span class="fds-field__help" id="jakob-help">Select all that apply</span>
             </div>
 
             <div class="fds-field fds-m-t--xl">
@@ -100,19 +100,19 @@ export default {
     });
 
     const submit = () => {
-      let j1 = document.getElementById("j-1");
-      let j2 = document.getElementById("j-2");
-      let j3 = document.getElementById("j-3");
-      let j4 = document.getElementById("j-4");
+      let r1 = document.getElementById("j-1");
+      let r2 = document.getElementById("j-2");
+      let r3 = document.getElementById("j-3");
+      let r4 = document.getElementById("j-4");
 
-      if((j1.checked && j3.checked) && (!j2.checked && !j4.checked)){
-        goto('/learning/level-2/certificate');
+      if((r1.checked && r3.checked) && (!r2.checked && !r4.checked)){
+        goto('/learning/level-2/test-2');
 
         showSuccessGrowl(
           {
             "title": "Correct",
             "useIcon": 'true',
-            "msg": "Great, you are now certified as Level 2."
+            "msg": "Great, keep on going."
           }
         );
 
@@ -130,15 +130,15 @@ export default {
     }
 
     const clearTest = () => {
-      let j1 = document.getElementById("j-1");
-      let j2 = document.getElementById("j-2");
-      let j3 = document.getElementById("j-3");
-      let j4 = document.getElementById("j-4");
+      let r1 = document.getElementById("j-1");
+      let r2 = document.getElementById("j-2");
+      let r3 = document.getElementById("j-3");
+      let r4 = document.getElementById("j-4");
 
-      j1.checked = false;
-      j2.checked = false;
-      j3.checked = false;
-      j4.checked = false;
+      r1.checked = false;
+      r2.checked = false;
+      r3.checked = false;
+      r4.checked = false;
     }
 
     return {
