@@ -7,8 +7,7 @@
         <div class="fds-section__bd">
           <div class="fds-m-t--s fds-m-b--m">
             
-              <h1>Learning - Level 1</h1>
-              <p class="fds-text--lead fds-m-t--l">In this module you will learn about <strong>Miller's Law</strong></p>
+              <h1>Learning Module - Level 1</h1>
                 
             </div>
 

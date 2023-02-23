@@ -7,7 +7,7 @@
         <div class="fds-section__bd">
           <div class="fds-m-t--s fds-m-b--m">
             
-              <h1>Learning - Level 1 Exam</h1>
+              <h1>Module Exam - Level 1</h1>
                 
             </div>
 

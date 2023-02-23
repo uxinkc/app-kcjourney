@@ -9,7 +9,7 @@
             
               <h1>[Admin] Curriculum</h1>
               <p class="fds-m-t--l">
-                This section if for Mentors to add and update curriculum for the Level 1 and Level 2 learning modules.
+                This section is for Mentors to add and update curriculum for the Level 1 and Level 2 learning modules and exams.
               </p>
 
             </div>

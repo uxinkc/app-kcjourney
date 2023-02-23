@@ -7,7 +7,7 @@
         <div class="fds-section__bd">
           <div class="fds-m-t--s fds-m-b--m">
             
-              <h1>Learning - Level 2 Exam</h1>
+              <h1>Module Exam - Level 2</h1>
                 
             </div>
 
@@ -40,10 +40,10 @@
 
               <div class="fds-field fds-field--fill">
                 <ul class="fds-form-list" aria-describedby="jakobs-2-help" aria-labelledby="s">
-                  <li class="fds-level fds-level--none fds-m-b--s fds-p--xl fds-box fds-box--bg-0">
-                    <p>
+                  <li class="fds-level fds-level--none fds-m-b--m fds-p--xl fds-box fds-box--bg-0">
+                    <p class="fds-m-b--l">
                       <input class="fds-checkbox" id="j2-1" type="checkbox" name="jakobs-2">
-                      <label for="j2-1">Select Example 1</label>
+                      <label for="j2-1">Example 1:</label>
                     </p>
                     <p class="">
                       
@@ -85,14 +85,14 @@
 
                     </p>
                   </li>
-                  <li class="fds-level fds-level--none fds-m-b--s fds-p--xl fds-box fds-box--bg-0">
-                    <p>
+                  <li class="fds-level fds-level--none fds-m-b--m fds-p--xl fds-box fds-box--bg-0">
+                    <p class="fds-m-b--l">
                       <input class="fds-checkbox" id="j2-2" type="checkbox" name="jakobs-2">
-                      <label for="j2-2">Select Example 2</label>
+                      <label for="j2-2">Example 2:</label>
                     </p>
                     <p class="">
                       
-                      <div class="fds-content-tabs fds-content-tabs--justified">
+                      <div class="fds-content-tabs fds-content-tabs--justified-equal">
                         <ul class="fds-content-tabs__list">
                           <li class="fds-content-tabs__item">
                             <a class="fds-content-tabs__label" aria-current="step" href="#">
@@ -125,10 +125,10 @@
 
                     </p>
                   </li>
-                  <li class="fds-level fds-level--none fds-m-b--s fds-p--xl fds-box fds-box--bg-0">
-                    <p>
+                  <li class="fds-level fds-level--none fds-m-b--m fds-p--xl fds-box fds-box--bg-0">
+                    <p class="fds-m-b--l">
                       <input class="fds-checkbox" id="j2-3" type="checkbox" name="jakobs-2">
-                      <label for="j2-3">Select Example 3</label>
+                      <label for="j2-3">Example 3:</label>
                     </p>
                     <p class="">
                       <select class="fds-select fds-select--large" name="Options sit">
@@ -143,19 +143,19 @@
                       
                     </p>
                   </li>
-                  <li class="fds-level fds-level--none fds-m-b--s fds-p--xl fds-box fds-box--bg-0">
-                    <p>
+                  <li class="fds-level fds-level--none fds-m-b--m fds-p--xl fds-box fds-box--bg-0">
+                    <p class="fds-m-b--l">
                       <input class="fds-checkbox" id="j2-4" type="checkbox" name="jakobs-2">
-                      <label for="j2-4">Select Example 4</label>
+                      <label for="j2-4">Example 4:</label>
                     </p>
-                    <p class="">
+                    <p class="fds-level fds-level--auto-justify">
+                      <button class="fds-btn fds-btn--flat fds-m-r--m" type="button">About Us</button>
                       <span class="fds-btn-group fds-btn-group--fill" role="group" aria-label="Label describing this group">
-                        <button class="fds-btn-group__item" type="button">About Us</button>
                         <button class="fds-btn-group__item fds-btn-group__item--active" aria-selected="true" type="button">Solutions</button>
                         <button class="fds-btn-group__item" type="button">Pricing</button>
                         <button class="fds-btn-group__item" type="button">Blog</button>
-                        <button class="fds-btn fds-btn--tertiary fds-m-l--m">Contact Us</button>
                       </span>
+                      <button class="fds-btn fds-btn--tertiary fds-m-l--m">Contact Us</button>
                       
                     </p>
                   </li>
@@ -223,7 +223,7 @@ export default {
 
       if((r2.checked) && (!r1.checked && !r3.checked && !r4.checked)){
         goto('/learning/level-2/certificate');
-
+        store.dispatch("learning/setLevelCompleted", 2);
         showSuccessGrowl(
           {
             "title": "Correct",

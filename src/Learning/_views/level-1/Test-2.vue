@@ -7,7 +7,7 @@
         <div class="fds-section__bd">
           <div class="fds-m-t--s fds-m-b--m">
             
-              <h1>Learning - Level 1 Exam</h1>
+              <h1>Module Exam - Level 1</h1>
                 
             </div>
 
@@ -114,7 +114,7 @@ export default {
 
       if((r1.checked && r3.checked) && (!r2.checked)){
         goto('/learning/level-1/certificate');
-
+        store.dispatch("learning/setLevelCompleted", 1);
         showSuccessGrowl(
           {
             "title": "Correct",
