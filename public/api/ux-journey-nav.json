@@ -9,68 +9,6 @@
         "path": "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
       },
       "hasChild": "false" 
-    },
-    {
-      "uid": "curriculum-id",
-      "label": "Curriculum",
-      "path": "/curriculum/",
-      "icon": {
-        "class": "fds-icon fds-icon--size-2",
-        "path": "M18 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM9 4H11V9L10 8.25L9 9V4ZM18 20H6V4H7V13L10 10.75L13 13V4H18V20Z"
-      },
-      "hasChild": "true",
-      "hasHeaders": "false",
-      "children": [
-        {
-          "uid": "curriculum-laws-id",
-          "label": "UX Laws",
-          "path": "/curriculum/ux-laws",
-          "hasChild": "false"
-        },
-        {
-          "uid": "curriculum-typography-id",
-          "label": "Typography",
-          "path": "/curriculum/typography",
-          "hasChild": "false"
-        },
-        {
-          "uid": "curriculum-size-spacing-id",
-          "label": "Size & Spacing",
-          "path": "/curriculum/size-spacing",
-          "hasChild": "false"
-        }
-      ]
-    },
-    {
-      "uid": "guides-id",
-      "label": "Guides",
-      "path": "/guides",
-      "icon": {
-        "class": "fds-icon fds-icon--size-2",
-        "path": "M13 10H18L21 7L18 4H13V2H11V4H4V10H11V12H6L3 15L6 18H11V22H13V18H20V12H13V10ZM6 6H17.17L18.17 7L17.17 8H6V6ZM18 16H6.83L5.83 15L6.83 14H18V16Z"
-      },
-      "hasChild": "true",
-      "hasHeaders": "false",
-      "children": [
-        {
-          "uid": "a11y-id",
-          "label": "Accessibility",
-          "path": "/guides/accessibility",
-          "hasChild": "false"
-        },
-        {
-          "uid": "content-id",
-          "label": "Content",
-          "path": "/guides/content",
-          "hasChild": "false"
-        },
-        {
-          "uid": "front-end-id",
-          "label": "Front End",
-          "path": "/guides/front-end",
-          "hasChild": "false"
-        }
-      ]
     }
   ],
   "side": [

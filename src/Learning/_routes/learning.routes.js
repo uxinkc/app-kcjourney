@@ -49,6 +49,10 @@ export const learningRoutes = [
     component: () => import('@/Learning/_views/level-2/Step-3.vue')
   },
   { 
+    path: '/learning/level-2/step-4',
+    component: () => import('@/Learning/_views/level-2/Step-4.vue')
+  },
+  { 
     path: '/learning/level-2/test-1',
     component: () => import('@/Learning/_views/level-2/Test-1.vue')
   },
