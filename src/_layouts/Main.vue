@@ -1,29 +1,19 @@
 <template>
-  <div class="ds-layout--main">
-    <div class="ds-nav-rail-layout">
-      <div :class="'ds-nav-rail-layout__nav ' + (isMenuOpen ? 'ds-nav-rail-drawer--open ' : '')">
-        <nav-rail
-          :BASE_PATH="basePath"
-          :NAV_DATA="navigationData"
-          :IS_MENU_OPEN="isMenuOpen"
-          :SELECTED_MENU="selectedMenu"
-          @emitSetMenuOpen="setMenuOpen"
-          @emitSelectMenu="selectMenu">
-        </nav-rail>
-        <nav-drawer
-          :BASE_PATH="basePath"
-          :NAV_DATA="navigationData"
-          :IS_MENU_OPEN="isMenuOpen"
-          :SELECTED_MENU="selectedMenu"
-          @emitSetMenuOpen="setMenuOpen"
-          @emitSelectMenu="selectMenu">
-        </nav-drawer>
-      </div>
-      <div :class="'ds-nav-rail-layout__body ' + (isMenuOpen ? 'ds-nav-rail-drawer--open ' : '')">
-        
-        <router-view></router-view>
+  <div class="ds-nav-drawer-layout">
+    <div :class="'ds-nav-drawer-layout__nav ' + (isMenuOpen ? 'ds-nav-drawer-layout--open ' : '')">
+      <nav-drawer
+        :BASE_PATH="basePath"
+        :NAV_DATA="navigationData"
+        :IS_MENU_OPEN="isMenuOpen"
+        :SELECTED_MENU="selectedMenu"
+        @emitSetMenuOpen="setMenuOpen"
+        @emitSelectMenu="selectMenu">
+      </nav-drawer>
+    </div>
+    <div :class="'ds-nav-drawer-layout__bd ' + (isMenuOpen ? 'ds-nav-drawer-layout--open ' : '')">
       
-      </div>
+      <router-view></router-view>
+    
     </div>
   </div>
 </template>
@@ -31,12 +21,10 @@
 import { defineAsyncComponent, ref, onMounted, computed, watch } from "vue";
 import { useStore } from "vuex";
 
-const NavDrawer = defineAsyncComponent(() => import("@/_partials/navigation/NavDrawer.vue"));
-const NavRail = defineAsyncComponent(() => import("@/_partials/navigation/NavRail.vue"));
+const NavDrawer = defineAsyncComponent(() => import("@/_partials/NavDrawer.vue"));
 
 export default {
   components: {
-    NavRail,
     NavDrawer
   },
 
@@ -65,7 +53,6 @@ export default {
 
     const selectMenu = (_id) => {
       store.dispatch("navigation/setSelectedMenu", _id);
-      setMenuOpen(true);
     };
 
     const setMenuOpen = (_val) => {

@@ -1,9 +1,12 @@
 <template>
   <footer>
-    <footerTopper></footerTopper>
-    <!-- <footerScreenId
-      SCREEN_ID="UX Journey">
-    </footerScreenId> -->
+    <!-- <topper></topper> -->
+<!--     <footer-body 
+      APP_ABBR_NAME="AUX">
+    </footer-body> -->
+    <legal
+      :COPYRIGHT="'Copyright - '+currentYear+' Accelerate UX'">
+    </legal>
     
     <hiddenItems></hiddenItems>
 
@@ -11,22 +14,25 @@
 </template>
 
 <script>
-import { defineAsyncComponent } from "vue";
-const footerTopper = defineAsyncComponent(() => import("@/_components/footer/footer-topper.vue"));
-const footerFooter = defineAsyncComponent(() => import("@/_components/footer/footer-footer.vue"));
-const footerScreenId = defineAsyncComponent(() => import("@/_components/footer/footer-screen-id.vue"));
+import { defineAsyncComponent, ref } from "vue";
+const topper = defineAsyncComponent(() => import("@/_components/footer/topper.vue"));
+const footerBody = defineAsyncComponent(() => import("@/_components/footer/footer-body.vue"));
+const legal = defineAsyncComponent(() => import("@/_components/footer/legal.vue"));
 const hiddenItems = defineAsyncComponent(() => import("@/_components/hidden/hidden-items.vue"));
 
 export default {
   
   components: {
-    footerTopper,
-    footerFooter,
-    footerScreenId,
+    topper,
+    footerBody,
+    legal,
     hiddenItems
   },
   setup(){
-
+    const currentYear = ref( new Date().getFullYear() );
+    return {
+      currentYear
+    }
   }
 }
 </script>

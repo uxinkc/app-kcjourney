@@ -1,12 +1,11 @@
 
 import { useRouter } from 'vue-router';
-import { useGoogleAnalytics } from "@/_composables/useGoogleAnalytics";
+//import { useGoogleAnalytics } from "@/_composables/useGoogleAnalytics";
 
 export function useNavigation() {
 
-  const trackerName = 'Navigate To';
-  
   const router = useRouter();
+  //const trackerName = 'Navigate To';
   //const { sendToGA } = useGoogleAnalytics();
 
   const goto = (_path, _target='') => {

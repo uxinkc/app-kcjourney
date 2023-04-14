@@ -14,10 +14,21 @@ export function useErrorState() {
     errorMessage.value = val
   }
 
+  const getErrorCode = (_val) => {
+    let codes = {};
+    codes['auth/user-not-found'] = "That User Account was not found."
+    codes['auth/wrong-password'] = "That password did not match the email address provided."
+    codes['auth/invalid-email'] = "The email address provided was not found."
+    codes['auth/user-disabled'] = "It appears that User Account has been disabled. Please contact support."
+    codes['auth/email-already-in-use'] = "The email address is already associated with an account";
+    return codes[_val];
+  }
+
   return {
     hasError,
     setHasError,
     errorMessage,
     setErrorMessage,
+    getErrorCode
   }
 }
