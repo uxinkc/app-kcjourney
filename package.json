@@ -1,5 +1,5 @@
 {
-  "name": "ux-journey",
+  "name": "kcjourney",
   "version": "1.0.0",
   "author": "Casey Hill",
   "contributors": [
@@ -7,7 +7,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uxinkc/ux-jounrey.git"
+    "url": "git+https://github.com/uxinkc/kcjourney.git"
   },
   "scripts": {
     "dev": "vite",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "fds-style": "^3.0.0",
+    "firebase": "^9.19.1",
     "highlight.js": "^11.7.0",
     "prismjs": "^1.29.0",
     "uuid": "^8.3.2",

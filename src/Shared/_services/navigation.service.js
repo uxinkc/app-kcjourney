@@ -1,5 +1,5 @@
 
-const URL = '/api/ux-journey-nav.json';
+const URL = '/api/kc-journey-nav.json';
 const HEADERS = new Headers();
 HEADERS.append(
   "Authorization",

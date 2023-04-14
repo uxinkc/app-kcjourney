@@ -7,7 +7,7 @@
         <div class="fds-section__bd">
           <div class="fds-m-t--s fds-m-b--m">
             
-              <h1>UX Journey [Logo]</h1>
+              <h1>KC Journey [Logo]</h1>
               <p class="fds-text--lead fds-m-t--l">The start to your <strong>career in UX</strong> is just a few clicks away!</p>
               <div class="fds-grid">
                 <div class="fds-grid__1/1 fds-grid__1/1@m fds-grid__1/2@l">

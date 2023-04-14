@@ -1,3 +1,3 @@
-# KC Journey App
+# UX Journey
 
-Prototype for an Open Source UX learning system
+Prototype for a Stanford LEAD Project

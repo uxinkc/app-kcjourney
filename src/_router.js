@@ -23,7 +23,7 @@ const routes = [
 ];
 
 export const router = createRouter({
-  history: createWebHistory('/ux-journey/'), // base directory option now here createWebHistory('/base-directory/'),
+  history: createWebHistory('/kcjourney/'), // base directory option now here createWebHistory('/base-directory/'),
   routes
 });
 
